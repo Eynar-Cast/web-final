@@ -2,10 +2,14 @@ html {
     height: 100%; 
     margin: 0; 
     padding: 0; 
-    background-image: url(fondo.png); 
+    background-image: url(imagenes/fondo2.webp); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+}
+h1 {
+    color: #f2eded;
+    text-align: center;
 }
 body{
     height: 100%;
@@ -20,22 +24,14 @@ form {
     width: 300px;
     text-align: center;
     margin: auto;
+    font-weight: bold; 
 }
-
-h2 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-
 label {
     font-size: 14px;
     color: #555;
     display: block;
     margin-bottom: 5px;
 }
-
-
 input[type="text"],
 input[type="password"] {
     width: 100%;
@@ -49,7 +45,7 @@ input[type="password"] {
 
 /* Estilo para el botón de enviar */
 input[type="submit"] {
-    background-color: #e90808;
+    background-color: #585353;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -61,4 +57,4 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #000;
-}
+}   
