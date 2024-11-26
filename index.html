@@ -1,64 +1,24 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="indec.css">
-        <title>Document</title>
-    </head>
-    <body>
-        <div id="contenedor">
-            <div id="header">
-            <header>
-                <h1>Eynar C. - Estudiante</h1>
-            </header>
-            </div>
-            <div id="nav">
-                <nav>
-                    <ul>
-                        <li><a href="inicio.html" target="contenidoIframe">Inicio</a></li>
-                        <li><a href="sobremi.html" target="contenidoIframe">Lenguajes</a></li>
-                        <li><a href="habilidades.html" target="contenidoIframe">Habilidades</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="contenido">
-                <div id="seccion">
-                <section id="tarjeta">
-                </section>
-                <iframe name="contenidoIframe" src="inicio.html"></iframe>
-                </div>
-                <div id="asside">
-                <aside>
-                    <h3>Mis Metas de este semestre</h3>
-                    <ul>
-                        <li>Completar mi primer proyecto de desarrollo web</li>
-                        <li>Aprender JavaScript a un nivel avanzado</li>
-                        <li>Aprobar el semestre</li>
-                    </ul>
-                </aside>
-                </div>
-            </div>
-            <div id="footer">
-            <footer id="Contacto">
-                <p>© 2024 Eynar C. - Todos los derechos reservados.</p>
-                <p>Puedes contactarme en: <a href="Cast521@gmail.com">Email</a></p>
-                <h2>Formulario de Contacto</h2>
-                <form id="contactForm">
-                <label for="name">Nombre:</label>
-                <input type="text" id="nombre" name="name"><br><br>
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="message">Mensaje:</label><br>
-                <textarea id="mensaje" name="message" rows="4" 
-                cols="50"></textarea><br><br>
-                <input type="submit" value="Enviar">
-                </form>
-            </footer>
-            </div>
-        </div>
-        <script src="index.js"></script>
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Login</title>
+    <link rel="stylesheet" href="formulario.css">
+
+</head>
+<div>
+<body>
+    <h1>Formulario de Login</h1>
+    <div id="formulario">
+    <form action="pagina_principal.html" method="POST" onsubmit="return validarFormulario()">
+        <label for="usuario">Usuario:</label><br>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+        <input type="submit" value="Iniciar sesión">    
+    </form></div>
+    <script src="index.js" defer></script>
+</body>
+</div>
+</html>

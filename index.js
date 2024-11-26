@@ -5,7 +5,7 @@ function validarFormulario() {
     const contraseñaCorrecta = '12345';
 
     if (usuario === usuarioCorrecto && contraseña === contraseñaCorrecta) {
-        window.location.href = "index.html";
+        window.location.href = "principio.html";
         return false;  
     } else {
         alert('Usuario o contraseña incorrectos.');
