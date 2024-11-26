@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    color: #4CAF50;
+}
+.language-icons {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0%; 
+    
+}
+
+.language-icons img {
+    width: 55%; 
+    height: auto; 
+    object-fit: contain; 
+}

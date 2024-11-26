@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Login</title>
+    <link rel="stylesheet" href="formulario.css">
+
+</head>
+<div class="contenedor">
+<body>
+    <h2>Formulario de Login</h2>
+    <div id="formulario">
+    <form action="pagina_principal.html" method="POST" onsubmit="return validarFormulario()">
+        <label for="usuario">Usuario:</label><br>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+        <input type="submit" value="Iniciar sesión">    
+    </form></div>
+    <script src="index.js" defer></script>
+</body>
+</div>
+</html>
